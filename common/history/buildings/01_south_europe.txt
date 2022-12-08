@@ -494,7 +494,7 @@
 		}
 	}
 	s:STATE_EMILIA={
-		region_state:PAR={
+		region_state:MOD={
 			create_building={
 				building="building_wheat_farm"
 				level=1
@@ -513,8 +513,6 @@
 				reserves=1
 				activate_production_methods={ "pm_wound_dressing" "pm_line_infantry" "pm_cavalry_scouts" "pm_no_specialists" "pm_cannon_artillery" }
 			}
-		}
-		region_state:LUC={
 			create_building={
 				building="building_textile_mills"
 				level=1
@@ -532,9 +530,7 @@
 				level=1
 				reserves=1
 				activate_production_methods={ "pm_wound_dressing" "pm_line_infantry" "pm_cavalry_scouts" "pm_no_specialists" "pm_cannon_artillery" }
-			}			
-		}
-		region_state:MOD={
+			}	
 			create_building={
 				building="building_wheat_farm"
 				level=3

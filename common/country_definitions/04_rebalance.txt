@@ -15,7 +15,7 @@ IML = {
 }
 
 CRL = {
-	color = { 200 137 14 }
+	color = { 237 137 14 }
 	tier = kingdom
 	country_type = recognized
 	cultures = { spanish }

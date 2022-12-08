@@ -114,22 +114,10 @@
 		}
 	}
 	s:STATE_EMILIA = {
-		region_state:PAR = {
-			create_pop = {
-				culture = north_italian
-				size = 472004
-			}
-		}
-		region_state:LUC = {
-			create_pop = {
-				culture = north_italian
-				size = 108408
-			}
-		}
 		region_state:MOD = {
 			create_pop = {
 				culture = north_italian
-				size = 648400
+				size = 1228812
 			}
 		}
 	}

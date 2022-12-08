@@ -1607,16 +1607,8 @@ STATES = {
 	}
 	s:STATE_EMILIA = {
 		create_state = {
-			country = c:PAR
-			owned_provinces = { x0B3B43 x700120 }
-		}
-		create_state = {
-			country = c:LUC
-			owned_provinces = { xF080A0 }
-		}
-		create_state = {
 			country = c:MOD
-			owned_provinces = { xEF0021 xF08021 }
+			owned_provinces = { xEF0021 xF08021 xF080A0 x0B3B43 x700120 }
 		}
 		
 		add_homeland = north_italian

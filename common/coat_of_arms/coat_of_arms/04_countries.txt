@@ -47,7 +47,7 @@ QHA = { # Qinghai
 	}
 }
 
-CRL = { # Qinghai
+CRL = { # Carlist Spain
 	pattern = "pattern_border_double.dds"
 		color1 = "white"
 		color2 = "white"
