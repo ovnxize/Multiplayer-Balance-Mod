@@ -20,7 +20,7 @@
 		}
 	}
 	s:STATE_SICHUAN={
-		region_state:TIB={
+		region_state:CHI={
 			create_building={
 				building="building_government_administration"
 				level=10

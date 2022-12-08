@@ -51,7 +51,7 @@
 		}
 	}
 	s:STATE_SICHUAN = {
-		region_state:TIB = {
+		region_state:CHI = {
 			create_pop = {
 				culture = han # nanfaren
 				size = 9479900
