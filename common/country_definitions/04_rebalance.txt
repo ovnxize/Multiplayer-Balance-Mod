@@ -13,3 +13,10 @@ IML = {
 	cultures = { mongol }
 	capital = STATE_NINGXIA
 }
+
+CRL = = {
+	color = { 212 107 47 }
+	tier = kingdom
+	cultures = { spanish }
+	capital = STATE_NINGXIA
+}
