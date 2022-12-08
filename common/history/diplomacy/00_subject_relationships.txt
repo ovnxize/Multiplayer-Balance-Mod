@@ -65,6 +65,14 @@
 			type = vassal
 		}
 		create_diplomatic_pact = {
+			country = c:IML
+			type = vassal
+		}
+		create_diplomatic_pact = {
+			country = c:QHA
+			type = vassal
+		}
+		create_diplomatic_pact = {
 			country = c:MGL
 			type = vassal
 		}
