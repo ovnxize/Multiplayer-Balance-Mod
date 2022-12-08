@@ -14,10 +14,10 @@ IML = {
 	capital = STATE_NINGXIA
 }
 
-CRL = = {
-	color = { 212 107 47 }
+CRL = {
+	color = { 200 137 14 }
 	tier = kingdom
 	country_type = recognized
 	cultures = { spanish }
-	capital = STATE_NINGXIA
+	capital = s:STATE_CASTILE
 }

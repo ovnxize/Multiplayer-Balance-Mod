@@ -42,5 +42,11 @@
 			value = 0
 		}
 		add_journal_entry = { type = je_warlord_china }
+
+		add_modifier = {
+			name = china_backwards_gov
+			years = 50
+			is_decaying = yes
+		}
 	}
 }
