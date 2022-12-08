@@ -88,7 +88,7 @@
 		}
 	}
 	s:STATE_GUIZHOU={
-		region_state:CHI={
+		region_state:GUI={
 			create_building={
 				building="building_government_administration"
 				level=4
