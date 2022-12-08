@@ -1,5 +1,13 @@
 QHA = {
-	color = { 69 145 215 }
+	color = { 215 164 69 }
+	country_type = unrecognized
+	tier = kingdom
+	cultures = { han tibetan }
+	capital = STATE_QINGHAI
+}
+
+IML = {
+	color = { 120 85 46 }
 	country_type = unrecognized
 	tier = kingdom
 	cultures = { han tibetan }
