@@ -32,23 +32,12 @@
 			}
 			create_pop = {
 				culture = tatar
-				size = 24000
+				size = 60000
 			}
 			create_pop = {
 				culture = tatar
 				religion = gelugpa
-				size = 16000
-			}
-		}
-		region_state:CHI = {
-			create_pop = {
-				culture = tatar
-				size = 36000
-			}
-			create_pop = {
-				culture = tatar
-				religion = gelugpa
-				size = 16000
+				size = 32000
 			}
 		}
 	}
