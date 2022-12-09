@@ -6,9 +6,67 @@ dp_manifest_destiny = {
 	possible = {
 		country = c:USA
 	}
+
+	allow_negotiated_peace = no
 	
 	on_weekly_pulse = {}
 	
+	on_war_begins = {}
+
+	on_war_end = {}
+}
+
+dp_carlist_war = {
+	requires_interest_marker = no
+	enable_switch_sides = yes
+	allow_negotiated_peace = no
+	mirror_war_goal = yes
+	initiator_can_add_war_goals = no
+	target_can_add_war_goals = no
+	
+	war_goal = annex_country
+	
+	texture = "gfx/interface/icons/war_goals/annex_country.dds"
+	
+	selectable_in_lens = {
+		always = no
+	}	
+	
+	possible = {
+		scope:initiator = {
+			is_revolutionary = yes
+		}
+		scope:initiator.civil_war_origin_country = scope:target
+	}
+
+	additional_involvement_trigger = {
+		NOT = { is_country_type = decentralized }
+		aggressive_diplomatic_plays_permitted = yes
+	
+		scope:target = {
+			capital = {
+				region = {
+					save_temporary_scope_as = target_capital_region
+				}
+			}
+		}
+
+		scope:initiator = {
+			capital = {
+				region = {
+					save_temporary_scope_as = initiator_capital_region
+				}
+			}
+		}
+		
+		OR = {
+			has_interest_marker_in_region = scope:target_capital_region
+			has_interest_marker_in_region = scope:initiator_capital_region
+		}
+	}
+	
+	on_weekly_pulse = {}
+
 	on_war_begins = {}
 
 	on_war_end = {}

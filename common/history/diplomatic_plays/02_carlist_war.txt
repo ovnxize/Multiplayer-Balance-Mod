@@ -6,16 +6,9 @@
 			target_state = s:STATE_CASTILE.region_state:CRL
 			
 			war = yes
+	
+			type = dp_carlist_war
 
-			is_civil_war_type = revolution
-			
-			type = dp_annex_war
-
-			add_war_goal = {
-				holder = c:CRL
-				type = annex_country
-				target_state = s:STATE_TOLEDO.region_state:SPA
-			}
 		}			
 	}
 }

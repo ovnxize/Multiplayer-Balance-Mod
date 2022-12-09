@@ -34,7 +34,7 @@
 			birth_date = 1806.10.27
 			ig_leader = yes
 			interest_group = ig_landowners
-			ideology = ideology_radical
+			ideology = ideology_royalist
 			traits = {
 				pillager
 				bandit
