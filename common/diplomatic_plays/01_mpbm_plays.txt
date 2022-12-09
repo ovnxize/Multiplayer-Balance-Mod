@@ -69,5 +69,9 @@ dp_carlist_war = {
 
 	on_war_begins = {}
 
-	on_war_end = {}
+	on_war_end = { 
+		add_journal_entry = {
+			type = je_carlist_wars
+		}
+	}
 }
