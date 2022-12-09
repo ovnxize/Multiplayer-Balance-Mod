@@ -186,7 +186,7 @@
 	}
 	s:STATE_GALICIA = {
 		# 840792
-		region_state:CRL = {
+		region_state:SPA = {
 			create_pop = {
 				culture = galician
 				size = 828528
@@ -199,7 +199,7 @@
 	}
 	s:STATE_ASTURIAS = {
 		# please don't ask for a source
-		region_state:CRL = {
+		region_state:SPA = {
 			create_pop = {
 				culture = spanish
 				size = 614264
@@ -211,10 +211,16 @@
 		}	
 	}
 	s:STATE_CASTILE = {
+		region_state:SPA = {
+			create_pop = {
+				culture = spanish
+				size = 1216187
+			}
+		}
 		region_state:CRL = {
 			create_pop = {
 				culture = spanish
-				size = 1430808
+				size = 214621
 			}
 			create_pop = {
 				culture = basque
@@ -255,7 +261,7 @@
 		}
 	}
 	s:STATE_CATALONIA = {
-		region_state:SPA = {
+		region_state:CRL = {
 			create_pop = {
 				culture = catalan
 				size = 704308

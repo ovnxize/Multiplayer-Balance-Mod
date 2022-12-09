@@ -15,9 +15,9 @@ IML = {
 }
 
 CRL = {
-	color = { 237 137 14 }
+	color = { 191 106 21 }
 	tier = kingdom
 	country_type = recognized
 	cultures = { spanish }
-	capital = s:STATE_CASTILE
+	capital = s:STATE_NAVARRA
 }

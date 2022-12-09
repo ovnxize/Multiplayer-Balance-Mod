@@ -3,16 +3,18 @@
 		create_diplomatic_play = {
 			name = carlist_war
 		
-			target_state = s:STATE_RIO_GRANDE_DO_SUL.region_state:PNI
+			target_state = s:STATE_CASTILE.region_state:CRL
 			
 			war = yes
+
+			is_civil_war_type = revolution
 			
 			type = dp_annex_war
 
 			add_war_goal = {
-				holder = c:PNI
-				type = conquer_state
-				target_state = s:STATE_SANTA_CATARINA.region_state:BRZ
+				holder = c:CRL
+				type = annex_country
+				target_state = s:STATE_TOLEDO.region_state:SPA
 			}
 		}			
 	}

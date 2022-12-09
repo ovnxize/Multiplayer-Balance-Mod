@@ -1130,7 +1130,7 @@ STATES = {
 	}
 	s:STATE_GALICIA = {
 		create_state = {
-			country = c:CRL
+			country = c:SPA
 			owned_provinces = { "x0EA604" "x167F12" "x33F984" "x50E040" "x583E92" "xB85939" "xD03554" "xD0E040" }
 		}
 		
@@ -1139,7 +1139,7 @@ STATES = {
 	}
 	s:STATE_ASTURIAS = {
 		create_state = {
-			country = c:CRL
+			country = c:SPA
 			owned_provinces = { "x0F84B8" "x3E77F9" "x5060C0" "x525202" "xA1037C" "xBF2564" "xF0A000" }
 		}
 		
@@ -1147,10 +1147,14 @@ STATES = {
 	}
 	s:STATE_CASTILE = {
 		create_state = {
-			country = c:CRL
-			owned_provinces = { xD060C0 xD30171 x38C557 x70F50D x906201 xB1C098 x70A000 x5DB702 x24A9D6 x4D18FC x50E0C0 x10C4E5 x0543B8 xF02000 xDC8B19 xD7A4DE xF44AAA xCA2220 xB3BC6E xB02000 x0D5242 x2C00C8 x3A3528 x590C75 x702000 x22193A xC3ED38 }
+			country = c:SPA
+			owned_provinces = { xD060C0 xD30171 x38C557 x70F50D x906201 xB1C098 x24A9D6 x4D18FC x50E0C0 x10C4E5 x0543B8 xB3BC6E xB02000 x0D5242 x2C00C8 x590C75 x702000 x22193A xC3ED38 }
 		}
-		
+		create_state = {
+			country = c:CRL
+			owned_provinces = { x5DB702 x70A000 xF02000 xDC8B19 xD7A4DE xF44AAA x3A3528 xCA2220 }
+		}
+
 		add_homeland = spanish
 	}
 	s:STATE_ARAGON = {
@@ -1172,7 +1176,7 @@ STATES = {
 	}
 	s:STATE_CATALONIA = {
 		create_state = {
-			country = c:SPA
+			country = c:CRL
 			owned_provinces = { xE0C020 xD616D2 x08B4D6 x11E041 x945748 x906040 x936FF3 x2914C3 x0C64AC xC2FFD9 x890622 }
 		}
 		

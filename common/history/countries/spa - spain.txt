@@ -1,5 +1,6 @@
 ﻿COUNTRIES = {
-	c:CRL = {
+	c:SPA = {
+		set_next_election_date = 1836.7.13
 		
 		effect_starting_technology_tier_3_tech = yes
 		effect_starting_politics_conservative = yes
@@ -13,10 +14,12 @@
 		
 		# Estatuto Real de 1834 was in effect; the Constitution of 1812 was not restored until August of 1836
 		activate_law = law_type:law_monarchy
+		activate_law = law_type:law_landed_voting
 		activate_law = law_type:law_state_religion
-		activate_law = law_type:law_slave_trade
+		activate_law = law_type:law_legacy_slavery
 		activate_law = law_type:law_racial_segregation
 		activate_law = law_type:law_mercantilism
+		activate_law = law_type:law_interventionism
 		activate_law = law_type:law_land_based_taxation	
 		activate_law = law_type:law_religious_schools
 		activate_law = law_type:law_charitable_health_system
@@ -28,11 +31,11 @@
 			level = 1
 		}
 
-		ig:ig_landowners = {
+		ig:ig_intelligentsia = {
 			add_ruling_interest_group = yes # Juan Mendizabal was Prime Minister
 		}
 
-		ig:ig_armed_forces = {
+		ig:ig_devout = {
 			add_ruling_interest_group = yes
 		}
 		
@@ -43,8 +46,9 @@
 		ig:ig_landowners = {
 			add_ideology = ideology_pious
 		}
+
 		add_modifier = {
-			name = crl_carlist_war
+			name = spa_carlist_war
 			years = 8
 		}
 	}
