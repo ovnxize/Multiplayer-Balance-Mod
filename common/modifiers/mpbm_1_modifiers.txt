@@ -11,16 +11,11 @@ france_low_birth = {
 }
 
 crl_carlist_war = {
-	ig:ig_intelligentsia = {
-		approval = -10
-	}
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_fire_negative
 	interest_group_ig_intelligentsia_pol_str_mult = -0.15
-	interest_group_ig_a_pol_str_mult = -0.15
 }
 
 spa_carlist_war = {
-	ig:ig_landowners = {
-		approval = -10
-	}
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_fire_negative
 	interest_group_ig_landowners_pol_str_mult = -0.15
 }
