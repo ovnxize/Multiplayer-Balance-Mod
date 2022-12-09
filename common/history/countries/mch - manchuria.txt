@@ -12,5 +12,9 @@
 		activate_law = law_type:law_traditionalism
 		activate_law = law_type:law_censorship
 
+		ig:ig_intelligentsia = { 
+			set_interest_group_name = ig_literati
+			remove_ideology = ideology_anti_clerical
+		}
 	}
 }

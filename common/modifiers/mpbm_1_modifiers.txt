@@ -1,0 +1,22 @@
+china_backwards_gov = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_negative.dds\
+	country_bureaucracy_mult = -0.25
+	country_law_enactment_success_add = -0.1
+	country_weekly_innovation_mult = -0.5
+}
+
+france_low_birth = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds\
+	state_birth_rate_mult = -0.15
+}
+
+crl_carlist_war = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_fire_negative.dds\
+	interest_group_ig_intelligentsia_pol_str_mult = -0.15
+	unit_defense_mult = 0.05
+}
+
+spa_carlist_war = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_fire_negative.dds\
+	interest_group_ig_landowners_pol_str_mult = -0.15
+}

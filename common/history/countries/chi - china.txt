@@ -12,7 +12,7 @@
 		activate_law = law_type:law_serfdom
 		activate_law = law_type:law_land_based_taxation
 		activate_law = law_type:law_appointed_bureaucrats
-		activate_law = law_type:law_cultural_exclusion
+		activate_law = law_type:law_racial_segregation
 		activate_law = law_type:law_traditionalism
 		activate_law = law_type:law_censorship	
 		
@@ -42,5 +42,11 @@
 			value = 0
 		}
 		add_journal_entry = { type = je_warlord_china }
+
+		add_modifier = {
+			name = china_backwards_gov
+			years = 50
+			is_decaying = yes
+		}
 	}
 }

@@ -114,7 +114,7 @@
 		}
 	}
 	s:STATE_GUIZHOU = {
-		region_state:CHI = {
+		region_state:GUI = {
 			create_pop = {
 				culture = han # nanfaren
 				size = 3188452

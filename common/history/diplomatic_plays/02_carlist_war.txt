@@ -1,0 +1,14 @@
+﻿DIPLOMATIC_PLAYS = {
+	c:SPA = {
+		create_diplomatic_play = {
+			name = carlist_war
+		
+			target_state = s:STATE_CASTILE.region_state:CRL
+			
+			war = yes
+	
+			type = dp_carlist_war
+
+		}			
+	}
+}
