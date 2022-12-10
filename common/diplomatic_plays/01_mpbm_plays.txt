@@ -69,35 +69,9 @@ dp_carlist_war = {
 
 	on_war_begins = {}
 
-	on_war_end = {}
-}
-
-dp_circassian_war = {
-	requires_interest_marker = no
-	enable_switch_sides = yes
-	allow_negotiated_peace = no
-	mirror_war_goal = no
-	initiator_can_add_war_goals = no
-	target_can_add_war_goals = no
-	
-	war_goal = annex_country
-	
-	texture = "gfx/interface/icons/war_goals/annex_country.dds"
-	
-	selectable_in_lens = {
-		always = no
-	}	
-	
-	possible = {
-		country = c:RUS
-		exists = {
-		country = c:CIR 
+	on_war_end = { 
+		add_journal_entry = {
+			type = je_carlist_wars
 		}
 	}
-	
-	on_weekly_pulse = {}
-
-	on_war_begins = {}
-
-	on_war_end = {}
 }
