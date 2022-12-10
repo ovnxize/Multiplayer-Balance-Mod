@@ -4,10 +4,8 @@
 			first_name = Carlos
 			last_name = "de_Borbon"
 			ruler = yes
-			female = yes
 			birth_date = 1788.3.10
-			dna = dna_emperor_ferdinand_01
-			interest_group = ig_landowners
+			dna = dna_carlos_bourbon
 			ideology = ideology_royalist
 			traits = {
 			}
