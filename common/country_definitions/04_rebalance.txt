@@ -19,5 +19,5 @@ CRL = {
 	tier = kingdom
 	country_type = recognized
 	cultures = { spanish }
-	capital = s:STATE_NAVARRA
+	capital = STATE_NAVARRA
 }
