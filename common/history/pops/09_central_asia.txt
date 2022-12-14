@@ -241,18 +241,11 @@
 		region_state:RUS = {
 			create_pop = {
 				culture = kazak
-				size = 62000
+				size = 92000
 			}
 			create_pop = {
 				culture = russian
 				size = 7996
-			}
-		}
-
-		region_state:KAZ = {
-			create_pop = {
-				culture = kazak
-				size = 30000
 			}
 		}
 	}
@@ -458,7 +451,7 @@
 		}
 	}
 	s:STATE_SEMIRECHE = {
-		region_state:KAZ = {
+		region_state:RUS = {
 			create_pop = {
 				culture = kazak
 				size = 164162
@@ -475,7 +468,7 @@
 	}
 	# Please do not ask where these numbers come from.
 	s:STATE_JETISY = {
-		region_state:KAZ = {
+		region_state:RUS = {
 			create_pop = {
 				culture = kazak
 				size = 200642
@@ -491,7 +484,7 @@
 		}
 	}
 	s:STATE_AKMOLINSK = {
-		region_state:KAZ = {
+		region_state:RUS = {
 			create_pop = {
 				culture = kazak
 				size = 260000

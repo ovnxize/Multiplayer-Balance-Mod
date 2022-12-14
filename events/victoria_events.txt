@@ -27,6 +27,10 @@ victoria.1 = {
 		ruler = {
 			save_scope_as = queen_victoria
 		}
+		set_variable = {
+			name = victoria_ascend
+			value = 0
+		}
 		c:HAN = {
 			remove_diplomatic_pact = {
 				country = c:GBR
@@ -144,6 +148,12 @@ victoria.1 = {
 			c:PRU = {
 				trigger_event = { id = victoria.2 }
 			}
+			hidden_effect = {
+				set_variable = {
+					name = victoria_ascend
+					value = 1
+				}
+			}
 		}
 		every_country = {
 			limit = {
@@ -160,7 +170,6 @@ victoria.2 = {
 
 	title = victoria.2.t
 	desc = victoriamodded.2.d
-	flavor = victoria.2.f
 
 	gui_window = event_window_1char_tabloid
 
@@ -174,14 +183,12 @@ victoria.2 = {
 	duration = 3
 
 	trigger = {
-		country = c:HAN
 	}
 
 	immediate = {
 		ruler = {
 			save_scope_as = ernest_augustus
 		}
-
 	}
 	option = {
 		name = victoriamodded.2.a
@@ -210,9 +217,14 @@ victoria.2 = {
 				country = c:BRA
 				type = customs_union
 			}
+			hidden_effect = {
+				set_variable = {
+					name = victoria_ascend
+					value = 1
+				}
+			}
 		}
 	}
-}
 
 
 # Say the line Bart!

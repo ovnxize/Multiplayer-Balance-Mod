@@ -6,6 +6,10 @@ dp_manifest_destiny = {
 	possible = {
 		country = c:USA
 	}
+	
+	selectable_in_lens = {
+		always = no
+	}	
 
 	allow_negotiated_peace = no
 	

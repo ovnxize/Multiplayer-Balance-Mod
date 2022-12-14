@@ -1224,16 +1224,10 @@
 		}
 	}
 	s:STATE_HOKKAIDO = {
-		region_state:AIN = {
-			create_pop = {
-				culture = ainu
-				size = 49500
-			}
-		}
 		region_state:JAP = {
 			create_pop = {
 				culture = ainu
-				size = 9020
+				size = 58520
 			}
 			create_pop = {
 				culture = japanese
