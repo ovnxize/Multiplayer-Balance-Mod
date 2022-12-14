@@ -23,7 +23,7 @@ law_colonial_resettlement = {
 		malaria_prevention
 	}
 
-	valid = {
+	can_enact = {
 		navy_size >= 50
 	}
 	
@@ -53,7 +53,7 @@ law_colonial_exploitation = {
 		malaria_prevention
 	}
 
-	valid = {
+	can_enact = {
 		navy_size >= 50
 	}
 	
