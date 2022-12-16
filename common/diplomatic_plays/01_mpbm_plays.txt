@@ -1,25 +1,3 @@
-dp_manifest_destiny = {
-	war_goal = conquer_state
-	
-	texture = "gfx/interface/icons/war_goals/annex_country.dds"
-
-	possible = {
-		country = c:USA
-	}
-	
-	selectable_in_lens = {
-		always = no
-	}	
-
-	allow_negotiated_peace = no
-	
-	on_weekly_pulse = {}
-	
-	on_war_begins = {}
-
-	on_war_end = {}
-}
-
 dp_carlist_war = {
 	requires_interest_marker = no
 	enable_switch_sides = yes

@@ -35,12 +35,7 @@
 			institution = institution_police
 			level = 1
 		}
-
-		set_institution_investment_level = {
-			institution = institution_colonial_affairs
-			level = 1
-		}
-
+		
 		ig:ig_landowners = { # Victor de Broglie was Prime Minister until February 22, 1836
 			add_ruling_interest_group = yes
 		}

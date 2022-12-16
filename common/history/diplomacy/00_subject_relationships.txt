@@ -349,5 +349,13 @@
 			country = c:TID
 			type = puppet
 		}
+		create_diplomatic_pact = {
+			country = c:KTI
+			type = puppet
+		}
+		create_diplomatic_pact = {
+			country = c:SLW
+			type = puppet
+		}
 	}
 }

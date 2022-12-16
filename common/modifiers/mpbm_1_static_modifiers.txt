@@ -9,16 +9,6 @@ base_values = {
 	country_weekly_innovation_max_add = 25 #was 50
 	country_tech_spread_add = 20 #was 25
 	
-	country_loan_interest_rate_add = 0.2
-	
-	country_legitimacy_govt_size_add = -15
-	
-	country_bureaucracy_add = 100
-	country_authority_add = 100
-	country_influence_add = 100
-
-	country_revolution_secession_speed_add = 0.1
-	
 	state_education_access_wealth_add = 0.005 #was 0.02
 	
 	country_minting_add = 250
@@ -38,6 +28,8 @@ base_values = {
 	building_mobilization_cost_mult = 0.6
 	
 	building_economy_of_scale_level_cap_add = 20
+
+	political_movement_radicalism_mult = 0.2
 	
 }
 

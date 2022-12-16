@@ -19,7 +19,6 @@ law_colonial_resettlement = {
 	progressiveness = 25
 
 	unlocking_technologies = {
-		colonization
 		malaria_prevention
 	}
 
@@ -49,7 +48,6 @@ law_colonial_exploitation = {
 	progressiveness = -25
 
 	unlocking_technologies = {
-		colonization
 		malaria_prevention
 	}
 

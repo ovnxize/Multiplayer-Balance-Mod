@@ -519,7 +519,7 @@ POPS = {
 		}
 	}
 	s:STATE_ALTO_PARAGUAY = {
-		region_state:GNI = {
+		region_state:PRG = {
 			create_pop = {
 				culture = guarani
 				size = 11000
